@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56171C425AB367D001FCBCD /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56171C325AB367D001FCBCD /* SocialMedia.swift */; };
 		B5C497ED25AA0623002BFF69 /* Restaturant_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C497EC25AA0623002BFF69 /* Restaturant_AppApp.swift */; };
 		B5C497EF25AA0623002BFF69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C497EE25AA0623002BFF69 /* ContentView.swift */; };
 		B5C497F125AA062B002BFF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C497F025AA062B002BFF69 /* Assets.xcassets */; };
 		B5C497F425AA062B002BFF69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C497F325AA062B002BFF69 /* Preview Assets.xcassets */; };
+		B5C497FE25AA06C2002BFF69 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C497FD25AA06C2002BFF69 /* Home.swift */; };
+		B5C4980125AA08D2002BFF69 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4980025AA08D2002BFF69 /* CustomTF.swift */; };
+		B5C4980425AA0FB2002BFF69 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4980325AA0FB2002BFF69 /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56171C325AB367D001FCBCD /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
 		B5C497E925AA0623002BFF69 /* Restaturant App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaturant App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C497EC25AA0623002BFF69 /* Restaturant_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaturant_AppApp.swift; sourceTree = "<group>"; };
 		B5C497EE25AA0623002BFF69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5C497F025AA062B002BFF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C497F325AA062B002BFF69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5C497F525AA062B002BFF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C497FD25AA06C2002BFF69 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B5C4980025AA08D2002BFF69 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		B5C4980325AA0FB2002BFF69 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		B5C497EB25AA0623002BFF69 /* Restaturant App */ = {
 			isa = PBXGroup;
 			children = (
+				B5C497FC25AA06AB002BFF69 /* View */,
 				B5C497EC25AA0623002BFF69 /* Restaturant_AppApp.swift */,
 				B5C497EE25AA0623002BFF69 /* ContentView.swift */,
 				B5C497F025AA062B002BFF69 /* Assets.xcassets */,
@@ -67,6 +76,17 @@
 				B5C497F325AA062B002BFF69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5C497FC25AA06AB002BFF69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5C497FD25AA06C2002BFF69 /* Home.swift */,
+				B5C4980025AA08D2002BFF69 /* CustomTF.swift */,
+				B5C4980325AA0FB2002BFF69 /* Register.swift */,
+				B56171C325AB367D001FCBCD /* SocialMedia.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C497EF25AA0623002BFF69 /* ContentView.swift in Sources */,
+				B5C497FE25AA06C2002BFF69 /* Home.swift in Sources */,
+				B5C4980125AA08D2002BFF69 /* CustomTF.swift in Sources */,
+				B56171C425AB367D001FCBCD /* SocialMedia.swift in Sources */,
 				B5C497ED25AA0623002BFF69 /* Restaturant_AppApp.swift in Sources */,
+				B5C4980425AA0FB2002BFF69 /* Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
